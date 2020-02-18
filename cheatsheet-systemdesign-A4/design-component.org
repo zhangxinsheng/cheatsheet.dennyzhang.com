@@ -1,13 +1,13 @@
-* System Design: Core Logic                                       :Interview:
+* System Design: Design Component                                 :Interview:
 :PROPERTIES:
 :type:     interview
-:export_file_name: cheatsheet-corelogic-A4.pdf
+:export_file_name: cheatsheet-systemdesign-A4.pdf
 :END:
 #+TAGS: noexport(n)
 #+EXPORT_EXCLUDE_TAGS: exclude noexport
 #+SEQ_TODO: TODO HALF ASSIGN | DONE BYPASS DELEGATE CANCELED DEFERRED
 #+BEGIN_HTML
-<a href="https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-corelogic-A4"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
+<a href="https://github.com/dennyzhang/cheatsheet.dennyzhang.com/tree/master/cheatsheet-systemdesign-A4"><img align="right" width="200" height="183" src="https://www.dennyzhang.com/wp-content/uploads/denny/watermark/github.png" /></a>
 <div id="the whole thing" style="overflow: hidden;">
 <div style="float: left; padding: 5px"> <a href="https://www.linkedin.com/in/dennyzhang001"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/linkedin.png" alt="linkedin" /></a></div>
 <div style="float: left; padding: 5px"><a href="https://github.com/dennyzhang"><img src="https://www.dennyzhang.com/wp-content/uploads/sns/github.png" alt="github" /></a></div>
@@ -33,6 +33,8 @@ Algorithm(Time O(k), Space O(n)):
 *** Reference
 - https://www.jiuzhang.com/qa/219/
 - [[https://code.dennyzhang.com/top-k-frequent-elements][LeetCode: Top K Frequent Elements]]
+** misc                                                            :noexport:
+https://www.1point3acres.com/bbs/forum.php?mod=viewthread&tid=461654&extra=&page=1
 ** Design a system checking the health of 10,000 nodes
 
 Design a system that checks the health of 10,000 nodes. Each of 10,000 modes have an API exposed that you have to call and check the health. This API takes 1-5 seconds to respond. There is UI which tells which nodes are healthy OR not healthy. Your system should provide API for this UI. This UI refreshes every 10 mins. So, every 10 mins your system should be able to update data about those 10,000 nodes.
